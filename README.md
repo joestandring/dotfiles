@@ -1,6 +1,6 @@
 # A Beautiful Waste of Time
 These are the dotfiles I use for my Arch Linux install
-# This repository has been archives as I no longer use this config. Everything should still work, however my setup has changed a lot.
+# This repository has been archived as I no longer use this config. Everything should still work, however my setup has changed a lot.
 ![screenshot](sshot.png)
 ## What I Use
 * Window manager: [dwm](https://dwm.suckless.org/) ([systray](https://dwm.suckless.org/patches/systray/) [tilegap](https://dwm.suckless.org/patches/tilegap/))
