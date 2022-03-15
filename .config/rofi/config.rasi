@@ -1,0 +1,91 @@
+configuration {
+  show-icons: true;
+  icon-theme: "Papirus";
+  separator-style: "solid";
+  display-drun: "";
+  display-run: "";
+}
+
+* {
+  trans: #282a36A6;
+  darkgray: #282A36;
+  lightgray: #44475A;
+  white: #F8F8F2;
+  purple: #BD93F9;
+  font: "monospace 11";
+  text-color: @white;
+  margin: 0px;
+  padding: 0px;
+  spacing: 0px;
+}
+
+window {
+  location: center;
+  width: 480;
+  y-offset: -200;
+  border: 0px;
+  background-color: @trans;
+}
+
+mainbox {
+  padding: 12px;
+}
+
+inputbar {
+  background-color: @darkgray;
+  border: 2px;
+  border-color: @purple;
+  border-radius:  16px;
+  padding: 8px 16px;
+  spacing: 8px;
+  children: [ prompt, entry ];
+}
+
+prompt {
+  text-color: @purple;
+}
+
+entry {
+  placeholder: "Search";
+  placeholder-color: @lightgray;
+  text-color: @white;
+}
+
+textbox {
+  padding: 8px 24px;
+}
+
+listview {
+  background-color: transparent;
+  margin: 12px 0 0;
+  lines: 8;
+  columns: 1;
+  fixed-height: false;
+  scrollbar: false;
+  border: 0px;
+}
+
+element {
+  padding: 8px 16px;
+  spacing: 8px;
+  border-radius: 16px;
+}
+
+element.normal.normal, element.alternate.normal {
+  background-color: @darkgray;
+  text-color: @white;
+}
+
+element selected normal, element selected active {
+  background-color: @purple;
+  text-color: @darkgray;
+}
+
+element-icon {
+  size: 1em;
+  vertical-align: 0.5;
+}
+
+element-text {
+  text-color: inherit;
+}
